@@ -1,4 +1,4 @@
-# bitcoin-simplicity
+# Bitcoin Simplicity
 Secure your Money and Value with Bitcoin. For Everyone. 
 
 Bitcoin Simplicity is a Bitcoin education project  
