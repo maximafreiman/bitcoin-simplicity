@@ -2,7 +2,7 @@ Quel est le plus grand problème des systèmes auxquels nous faisons confiance a
 ---
 Avant de commencer cette discussion, je voudrais d’abord vous poser une question. Veuillez y répondre honnêtement :
 
-"Dans quelle mesure faites-vous confiance à quelque chose qui est géré de manière systémique par un individu ou un groupe particulier ?"
+« Dans quelle mesure faites-vous confiance à quelque chose qui est géré de manière systémique par un individu ou un groupe particulier ? »
 
 Aujourd’hui, nous plaçons notre confiance dans des systèmes gérés par des institutions. Un exemple évident est le système bancaire. Nous déposons notre argent dans des banques, quel qu’en soit le montant. Qu’il provienne de notre travail, d’une activité commerciale, de dons ou de toute autre source.
 
