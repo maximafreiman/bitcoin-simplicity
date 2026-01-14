@@ -4,7 +4,7 @@ Before I begin this discussion, I want to ask you something first. Please answer
 
 “How much do you trust something that is managed systemically by an individual or a particular group?”
 
-Today, we place our trust in systems managed by institutions. One clear example is banking. We store our money in banks, no matter the amount—whether it comes from work, business, gifts, or any other source.
+Today, we place our trust in systems managed by institutions. One clear example is banking. We store our money in banks, no matter the amount. Whether it comes from work, business, gifts, or any other source.
 
 Why do we trust banks with our money?
 Simple. Because for hundreds of years, humans have trusted banks as places to store money.
@@ -27,4 +27,4 @@ Not everything we trust is beautiful. Sometimes we trust systems that are not ne
 You would feel hurt after being deceived, wouldn’t you?
 And remember: consequences can never be taken back.
 
-I want to leave you with this message: humans are not perfect. As long as something is managed by a centralized system controlled by a small group of people—rather than directly by machines, mathematics, and code—it will always have flaws. Worse than that, you will eventually be manipulated systemically, without even realizing it.
+I want to leave you with this message: humans are not perfect. As long as something is managed by a centralized system controlled by a small group of people, rather than directly by machines, mathematics, and code, it will always have flaws. Worse than that, you will eventually be manipulated systemically, without even realizing it.
