@@ -1,7 +1,7 @@
 # Bitcoin Simplicity
 Secure your Money and Value with Bitcoin. For Everyone. 
 
-Bitcoin Simplicity is a Bitcoin education project  
+Bitcoin Simplicity is a Bitcoin education solo project  
 covering everything from the fundamentals to the developer level,  
 designed so that anyone, including non-technical readers,  
 can understand Bitcoin as a whole.
