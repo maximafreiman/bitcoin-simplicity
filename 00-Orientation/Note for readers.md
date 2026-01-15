@@ -1,7 +1,0 @@
-> **Note for Readers**  
-
-This folder is part of the *Bitcoin Simplicity* learning path.  
-The material is structured progressively and focuses on understanding Bitcoin through its protocol rules.  
- 
-You can read the folders at your own pace and stop at any level that fits your needs.  
-No prior technical background is required.
