@@ -32,7 +32,7 @@ In a verification-based system:
 You do not need to trust that something happened correctly.
 You can verify that it did.
 
-This shift—from trust to verification—is subtle, but profound.
+This shift, from trust to verification, is subtle, but profound.
 
 Traditional systems say:
 “Trust us. We are in charge.”
