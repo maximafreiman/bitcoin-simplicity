@@ -8,7 +8,7 @@ Trade moved at the speed of paper, ships, and human communication.
 
 In that world, central institutions played a necessary role.
 They stored value, kept ledgers, and resolved disputes.
-Trust was not just a design choice—it was a practical requirement.
+Trust was not just a design choice, it was a practical requirement.
 
 But the world changed.
 
