@@ -1,6 +1,5 @@
-## How Bitcoin Works  
-### Compared to Commodity Money and Fiat Money
----
+### How Bitcoin Works  
+## Compared to Commodity Money and Fiat Money
 
 To understand how Bitcoin works, it helps to compare it with the two types of money humans have relied on before:  
 **commodity money** and **fiat money**.
@@ -8,7 +7,6 @@ To understand how Bitcoin works, it helps to compare it with the two types of mo
 Each of them answers the same question in a different way:  
 **Who creates money, who controls it, and how do we know it is real?**
 
----
 
 ### 1. Commodity Money (Gold, Silver, Physical Goods)
 
@@ -27,7 +25,7 @@ In this system:
 The strength of commodity money is that no one can create it out of nothing.  
 Its weakness is that it is slow, heavy, and difficult to move across distance.
 
----
+##
 
 ### 2. Fiat Money (Modern Currencies)
 
@@ -45,7 +43,7 @@ trust that institutions will manage supply responsibly,
 trust that records are accurate,  
 trust that access will remain available.
 
----
+##
 
 ### 3. Bitcoin (Digital Scarcity)
 
@@ -65,7 +63,7 @@ New bitcoins can only be created according to a fixed schedule.
 Transactions are only accepted if they follow the rules.  
 No single participant can override the system.
 
----
+##
 
 ### The Ledger Comparison
 
@@ -82,7 +80,7 @@ Anyone can download it.
 Anyone can verify it.  
 No one owns it.
 
----
+##
 
 ### How Value Moves
 
@@ -95,7 +93,7 @@ You present a valid signature.
 
 If the signature is correct and the rules are followed, the network accepts it.
 
----
+##
 
 ### The Core Difference
 
