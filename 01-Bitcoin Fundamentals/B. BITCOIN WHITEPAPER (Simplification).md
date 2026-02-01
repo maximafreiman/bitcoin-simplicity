@@ -43,33 +43,24 @@ Bitcoin offers a solution by replacing trust in third parties with cryptographic
 
 --
 
-**3. Transaksi**
+**3. Transaction**
 
-Ini adalah penjelasan mekanisme transfer Bitcoin, dan bagaimana aktivitas transfer-menransfer ini diverifikasi. Kita pakai analogi koin biar lebih simpel. Jadi, setiap kali seseorang mengirim koin, dia “menandatangani” bukti bahwa koin itu sekarang milik orang berikutnya. Orang yang menerima bisa mengecek tanda tangan ini untuk memastikan koin itu benar-benar datang dari pemilik sebelumnya.
+This is an explanation of the Bitcoin transfer mechanism and how these transfer activities are verified. We use the analogy of coins to make it simpler. So, every time someone sends a coin, they “sign” proof that the coin now belongs to the next person. The receiver can check this signature to make sure the coin truly came from the previous owner.
 
-Masalahnya: Seseorang bisa saja mencoba mengirim koin yang sama ke dua orang berbeda di waktu yang hampir bersamaan.
+The problem is: Someone could try to send the same coin to two different people at almost the same time.
 
-Biasanya, di sistem bank, ada kantor pusat yang mengecek semua transaksi dan menentukan mana yang sah. Tapi kalau begitu, semua orang harus percaya pada kantor itu. Nah, Bitcoin memilih cara lain: Semua transaksi diumumkan ke seluruh jaringan komputer di dunia.
+Normally, in a banking system, there is a central office that checks all transactions and decides which one is valid. But in that case, everyone has to trust that office. Bitcoin chooses a different approach: All transactions are announced to the entire network of computers around the world.
 
-Komputer-komputer ini bekerja bersama untuk sepakat transaksi mana yang datang lebih dulu.
-Transaksi yang diterima pertama oleh mayoritas komputer itulah yang dianggap sah, dan yang datang belakangan otomatis ditolak.
+These computers work together to agree on which transaction arrived first. The transaction that is accepted first by the majority of computers is considered valid, and the one that arrives later is automatically rejected.
 
-Jadi intinya, Bitcoin tidak mencegah orang mencoba curang, tapi membuat jaringan global bersama-sama menentukan mana transaksi yang benar tanpa perlu bank atau pihak pusat.
+So in essence, Bitcoin does not prevent people from trying to cheat, but it makes a global network collectively determine which transaction is the correct one, without the need for a bank or a central authority.
 
-<img width="492" height="267" alt="tx bitcoin" src="https://github.com/user-attachments/assets/6bdbdea7-6612-4bf2-9d77-e803abe4dc0f" />
+<img width="388" height="224" alt="image" src="https://github.com/user-attachments/assets/95d78032-d62f-47b2-ac22-a9d44cdb3992" />
 
 --
 
 **4. Timestamp Server**
 
-Bayangkan ada papan pengumuman waktu digital.
-
-Setiap beberapa menit, sistem mengumpulkan transaksi yang baru, lalu membuat sidik jari digital (hash) dari kumpulan itu. Sidik jari ini diumumkan ke seluruh jaringan, jadi semua orang bisa melihat: “Pada waktu ini, data seperti ini benar-benar sudah ada.”
-
-Setiap catatan waktu baru juga memasukkan sidik jari dari catatan sebelumnya, sehingga terbentuk rantai yang saling terhubung.
-Kalau ada yang mencoba mengubah catatan lama, sidik jarinya akan berubah dan semua orang bisa langsung tahu.
-
-Timestamp server adalah cara Bitcoin memberi cap waktu pada transaksi dan menguncinya dalam rantai yang tidak bisa diubah tanpa ketahuan.
 
 --
 
