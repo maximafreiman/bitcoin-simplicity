@@ -74,25 +74,25 @@ The timestamp server is how Bitcoin gives transactions a time stamp and locks th
 
 **5. Proof of Work**
 
-Sekarang bayangkan jaringan Bitcoin itu seperti lomba memecahkan teka-teki.
+Now imagine the Bitcoin network as a puzzle-solving race.
 
-Setiap komputer di jaringan berlomba mencari angka acak yang, ketika digabung dengan data transaksi lalu “diacak” (di-hash), hasilnya memenuhi aturan tertentu, misalnya hasilnya (hash) harus diawali dengan banyak nol. Mencari angka ini susah dan butuh listrik serta waktu, tapi mengeceknya sangat mudah. Kalau sudah ketemu, komputer itu berhak mengumumkan “blok” baru ke jaringan.
+Every computer on the network competes to find a random number that, when combined with transaction data and “scrambled” (hashed), produces a result that meets certain rules—for example, the hash must start with many zeros. Finding this number is difficult and requires electricity and time, but checking it is very easy. Once a computer finds it, it earns the right to announce a new “block” to the network.
 
-Blok ini juga terkunci ke blok sebelumnya. Kalau seseorang mau mengubah satu blok lama, dia harus mengulang teka-teki itu bukan cuma untuk satu blok, tapi untuk semua blok setelahnya. Dan itu hampir mustahil kalau jaringan jujur lebih cepat.
+This block is also locked to the previous block. If someone wants to change an old block, they would have to redo the puzzle not just for that one block, but for all the blocks after it. And that is almost impossible if the honest network keeps moving faster.
 
-Soal “siapa yang menentukan kebenaran”:
-Bitcoin tidak pakai sistem “satu orang satu suara” atau “satu komputer satu suara”.
-Yang dipakai adalah siapa yang sudah mengeluarkan usaha paling besar.
+About “who decides the truth”:
+Bitcoin does not use a “one person, one vote” or “one computer, one vote” system.  
+Instead, it uses “one unit of work, one vote.”
 
-Rantai blok yang punya pekerjaan terbanyak (paling banyak teka-teki yang sudah dipecahkan) dianggap sebagai catatan yang benar oleh semua orang.
+The chain of blocks that has the most work behind it (the most puzzles solved) is considered the correct record by everyone.
 
-Dan supaya sistem tetap stabil, jaringan menyesuaikan tingkat kesulitan teka-teki.
-Kalau komputer makin cepat dan blok jadi terlalu sering muncul, teka-tekinya dibuat lebih susah.
-Kalau komputer sedikit dan blok terlalu lama, teka-tekinya dibuat lebih mudah.
+To keep the system stable, the network adjusts the difficulty of the puzzles.  
+If computers get faster and blocks start appearing too often, the puzzles are made harder.  
+If there are fewer computers and blocks take too long, the puzzles are made easier.
 
-Proof of Work membuat Bitcoin aman dengan mengubah kejujuran menjadi hal yang paling “murah”, dan kecurangan menjadi hal yang sangat “mahal”.
+Proof of Work secures Bitcoin by making honesty the cheapest option and cheating extremely expensive.
 
-<img width="354" height="87" alt="image" src="https://github.com/user-attachments/assets/115360fd-0190-49d3-b458-eebce28b7b7d" />
+<img width="367" height="92" alt="image" src="https://github.com/user-attachments/assets/9b616ce4-1cd1-43e1-9b91-9870e2373337" />
 
 --
 
