@@ -61,6 +61,14 @@ So in essence, Bitcoin does not prevent people from trying to cheat, but it make
 
 **4. Timestamp Server**
 
+Imagine there is a digital time bulletin board.
+
+Every few minutes, the system gathers new transactions and then creates a digital fingerprint (a hash) of that collection. This fingerprint is announced to the entire network, so everyone can see: “At this time, this data truly already existed.”
+
+Each new timestamp record also includes the fingerprint of the previous record, forming a chain that is linked together.  
+If someone tries to change an old record, its fingerprint will change and everyone can immediately notice.
+
+The timestamp server is how Bitcoin gives transactions a time stamp and locks them into a chain that cannot be altered without being detected.
 
 --
 
