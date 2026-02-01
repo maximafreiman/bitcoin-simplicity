@@ -224,3 +224,11 @@ they support correct blocks by extending them, and reject incorrect blocks by ig
 
 In essence:  
 Bitcoin’s security and trust emerge from collective agreement and mathematics, not from authority or human promises.
+
+---
+
+And that is the simplified version of all the explanations contained in the Bitcoin Whitepaper. All of the mathematical and technical aspects have been explained in a simple way.
+
+To view the original Bitcoin Whitepaper written by Satoshi Nakamoto, you can see it here:
+  
+https://bitcoin.org/bitcoin.pdf
