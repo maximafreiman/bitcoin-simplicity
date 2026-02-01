@@ -143,16 +143,16 @@ Satoshi then connects this to Moore’s Law (the observation that computer capab
 
 --
 
-**9. Verifikasi Pembayaran yang Sederhana**
+**9. Simplified Payment Verification**
 
-Seseorang bisa mengecek apakah pembayaran Bitcoin sudah diterima tanpa harus menjalankan komputer yang menyimpan dan memeriksa seluruh jaringan. Caranya, dia menyimpan kepala blok dari rantai terpanjang (daftar ringkas dari semua blok), lalu meminta bukti kecil dari jaringan berupa cabang Merkle (data singkat yang menghubungkan transaksi tertentu ke satu blok tertentu) untuk memastikan transaksi itu benar-benar sudah masuk ke dalam blockchain.
+A person can check whether a Bitcoin payment has been received without having to run a computer that stores and verifies the entire network. The way to do this is by storing the block headers from the longest chain (a compact list of all blocks), and then requesting a small proof from the network in the form of a Merkle branch (a short piece of data that links a specific transaction to a specific block) to confirm that the transaction has indeed been included in the blockchain.
 
-Dengan begitu, dia bisa melihat bahwa transaksi tersebut benar-benar sudah masuk ke dalam blockchain dan bahwa blok-blok baru terus ditambahkan setelahnya, yang berarti jaringan menerima pembayaran itu.
+This allows them to see that the transaction is truly part of the blockchain and that new blocks continue to be added afterward, which means the network has accepted the payment.
 
-Namun, cara ini bergantung pada kejujuran mayoritas jaringan.
-Jika jaringan dikuasai oleh penyerang, metode sederhana ini bisa dikelabui.
+However, this method depends on the honesty of the majority of the network.  
+If the network is controlled by an attacker, this simplified method can be fooled.
 
-Karena itu, untuk keamanan lebih tinggi, terutama bagi bisnis yang sering menerima pembayaran, menjalankan node sendiri tetap menjadi pilihan terbaik, karena bisa memeriksa semua transaksi secara langsung dan lebih cepat mendeteksi hal yang tidak wajar.
+Therefore, for higher security—especially for businesses that frequently receive payments—running your own node remains the best option, because it can verify all transactions directly and detect abnormal behavior more quickly.
 
 --
 
