@@ -35,11 +35,11 @@ Here, it is explained in the form of a one-page summary that outlines the big id
 
 --
 
-**2. Pendahuluan**
+**2. Introduction**
 
-Saat ini, pembayaran di internet masih bergantung pada lembaga keuangan sebagai perantara yang harus dipercaya, tetapi sistem ini mahal, lambat, dan rawan penipuan karena transaksi bisa dibatalkan dan harus dimediasi. Akibatnya, transaksi kecil jadi tidak efisien dan pedagang harus mengumpulkan banyak data pelanggan untuk mengurangi risiko. 
+Currently, online payments still rely on financial institutions as trusted intermediaries, but this system is expensive, slow, and vulnerable to fraud because transactions can be reversed and must be mediated. As a result, small transactions become inefficient, and merchants have to collect large amounts of customer data to reduce risk.
 
-Bitcoin menawarkan solusi dengan mengganti kepercayaan kepada pihak ketiga menjadi bukti kriptografi, sehingga dua orang bisa bertransaksi langsung dan aman. Dengan jaringan peer-to-peer dan sistem penanda waktu berbasis proof-of-work, transaksi dicatat secara berurutan dan hampir tidak bisa diubah, serta tetap aman selama mayoritas kekuatan komputasi dijalankan oleh node yang jujur.
+Bitcoin offers a solution by replacing trust in third parties with cryptographic proof, allowing two people to transact directly and securely. With a peer-to-peer network and a proof-of-work–based timestamping system, transactions are recorded in sequence and are nearly impossible to alter, and the system remains secure as long as the majority of the computing power is controlled by honest nodes.
 
 --
 
