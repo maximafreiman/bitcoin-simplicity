@@ -1,28 +1,31 @@
-Whitepaper Bitcoin (Simplifikasi)
+Bitcoin Whitepaper (Simplification)
 ---
 ![202211011450-main cropped_1667290056](https://github.com/user-attachments/assets/c705bc11-ff0a-4ff2-b2fc-0272b9561462)
 
-Pernah dengar istilah whitepaper? Singkatnya adalah ini merupakan sebuah dokumen resmi seperti jurnal penelitian mengenai sebuah isu, ide penyelesaian, project, panduan teknis, dan seterusnya. Dalam konteks Bitcoin, Bitcoin Whitepaper berisi mengenai isu yang diangkat tentang sebuah solusi baru untuk perbaikan sistem keuangan, yang di dalamnya juga dijelaskan dengan rinci bagaimana cara Bitcoin bekerja, serta apa tujuan Bitcoin diciptakan.
+Have you ever heard the term *whitepaper*? In short, it is an official document, similar to a research journal, that discusses an issue, a proposed solution, a project, a technical guide, and so on.  
 
-Ditulis oleh pseudonim bernama **Satoshi Nakamoto** pada **31 Oktober 2008** terciptalah sebuah gagasan baru mengenai bagaimana uang dengan sistem peer to peer digital cash bisa bekerja tanpa pihak ketiga seperti perbankan. Melalui dari perkembangan kriptografi dan komputasi sejak tahun 1974, Satoshi menjelaskan bagaimana semua disiplin ilmu kriptografi dan komputer bisa diimplementasikan dalam uang cash digital.
+In the context of Bitcoin, the Bitcoin Whitepaper contains the issues raised about a new solution to improve the financial system, in which it also explains in detail how Bitcoin works and the purpose for which Bitcoin was created.
 
-Isi dari Whitepaper ini ada 13 bagian
+Written under the pseudonym **Satoshi Nakamoto** on **October 31, 2008**, a new idea was born about how a peer-to-peer digital cash system could work without a third party such as banks. Drawing on developments in cryptography and computing since 1974, Satoshi explains how all disciplines of cryptography and computer science can be implemented in digital cash.
 
-- Abstrak
-- Pendahuluan
-- Transaksi
-- Timestamp Server
-- Proof of Work
-- Network atau Jaringan
-- Insentif
-- Ruang Pemyimpanan
-- Verifikasi Transaksi yang Disederhanakan
-- Menggabungkan dan Memisahkan Nilai
-- Privasi
-- Perhitungan
-- Kesimpulan
 
-Semua yang ada di dalam Whitepaper dijelaskan dengan bahasa yang teknis, walaupun ada beberapa bagian yang disederhanakan. Tapi jangan khawatir! Per poin akan dijelaskan dengan sederhana. Jadi kita nggak perlu insecure atau takut karena lihat rumus dan bagan di whitepaper yang terkesan intimidatif untuk orang awam.
+The contents of this Whitepaper consist of 13 sections.
+
+- Abstract  
+- Introduction  
+- Transactions  
+- Timestamp Server  
+- Proof of Work  
+- Network  
+- Incentive  
+- Storage Space  
+- Simplified Payment Verification  
+- Combining and Splitting Value  
+- Privacy  
+- Calculations  
+- Conclusion  
+
+Everything in the Whitepaper is explained in technical language, although some parts are simplified. But don’t worry! Each point will be explained in a simple way. So we don’t need to feel insecure or afraid when we see the formulas and diagrams in the whitepaper that may seem intimidating to beginners.
 
 --
 
