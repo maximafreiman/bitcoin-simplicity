@@ -96,22 +96,22 @@ Proof of Work secures Bitcoin by making honesty the cheapest option and cheating
 
 --
 
-**6. Jaringan**
+**6. Network**
 
-Jaringan Bitcoin seperti banyak komputer yang bekerja sebagai satu tim besar.
+The Bitcoin network is like many computers working together as one big team.
 
-- Setiap kali ada transaksi baru, transaksi itu dikirim ke semua komputer di jaringan.
-- Setiap komputer mengumpulkan transaksi-transaksi baru dan menyusunnya menjadi satu paket yang disebut blok.
-- Semua komputer lalu berlomba memecahkan teka-teki matematika untuk mengamankan blok mereka.
-- Komputer yang berhasil pertama mengumumkan bloknya ke jaringan.
-- Komputer lain akan memeriksa blok itu. Jika semua transaksi di dalamnya valid dan belum pernah dipakai sebelumnya, blok tersebut diterima.
-- Setelah diterima, semua komputer membangun blok berikutnya di atas blok itu, sehingga terbentuk satu rantai.
+- Every time there is a new transaction, it is broadcast to all the computers on the network.  
+- Each computer collects new transactions and groups them into a package called a block.  
+- All computers then compete to solve a mathematical puzzle to secure their block.  
+- The computer that succeeds first announces its block to the network.  
+- Other computers verify the block. If all the transactions inside it are valid and have not been used before, the block is accepted.  
+- Once accepted, all computers build the next block on top of it, forming a chain.
 
-Kadang dua komputer bisa menemukan blok hampir bersamaan. Sebagian jaringan akan melihat versi A dulu, sebagian melihat versi B dulu.
+Sometimes two computers can find a block at almost the same time. Part of the network will see version A first, while another part will see version B first.
 
-Dalam kondisi ini, semua komputer sementara mengikuti versi yang pertama mereka terima. Begitu ada blok baru berikutnya, rantai yang menjadi lebih panjang dianggap benar, dan semua komputer akan berpindah ke rantai itu.
+In this situation, all computers temporarily follow the version they received first. As soon as the next new block is found, the chain that becomes longer is considered the correct one, and all computers switch to that chain.
 
-Transaksi tidak harus sampai ke semua komputer agar bisa masuk ke sistem. Selama sampai ke banyak komputer, transaksi itu akan segera masuk ke dalam sebuah blok. Kalau ada komputer yang ketinggalan satu blok, dia bisa meminta ulang saat melihat blok berikutnya dan sadar ada bagian yang terlewat.
+A transaction does not have to reach every computer to enter the system. As long as it reaches many computers, it will soon be included in a block. If a computer misses a block, it can request it again when it sees the next block and realizes that something was missed.
 
 --
 
