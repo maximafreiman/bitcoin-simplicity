@@ -29,9 +29,9 @@ Everything in the Whitepaper is explained in technical language, although some p
 
 --
 
-**1. Abstrak**
+**1. Abstract**
 
-Disini dijelaskan dalam bentuk ringkasan satu halaman yang menjelaskan ide besar dan cara kerja utama Bitcoin secara garis besar. Disini dijelaskan, Bitcoin adalah sistem uang digital yang memungkinkan orang mengirim pembayaran langsung tanpa bank atau perantara, dengan keamanan dijaga oleh jaringan komputer global. Transaksi diamankan dengan tanda tangan kriptografi dan dicatat dalam blockchain melalui proof-of-work, sehingga catatannya sulit diubah. Rantai terpanjang dianggap sebagai kebenaran karena mewakili tenaga komputasi terbesar dan menjaga jaringan tetap aman dari kecurangan seperti pembelanjaan ganda.
+Here, it is explained in the form of a one-page summary that outlines the big idea and the main workings of Bitcoin at a high level. It explains that Bitcoin is a digital money system that allows people to send payments directly without banks or intermediaries, with security maintained by a global network of computers. Transactions are secured with cryptographic signatures and recorded on the blockchain through proof-of-work, making the records difficult to alter. The longest chain is considered the truth because it represents the greatest amount of computational power and keeps the network secure from fraud such as double spending.
 
 --
 
