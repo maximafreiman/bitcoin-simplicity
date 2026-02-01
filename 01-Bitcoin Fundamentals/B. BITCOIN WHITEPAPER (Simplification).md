@@ -131,16 +131,15 @@ This reward system also encourages honesty. If someone has very powerful compute
 
 --
 
-**8. Ruang Penyimpanan**
+**8. Storage Space**
 
-Bitcoin sejak awal dirancang supaya data lama tidak harus disimpan semuanya selamanya.
-Setelah sebuah transaksi terkubur cukup dalam oleh banyak blok di atasnya, detail transaksi itu bisa “diringkas” untuk menghemat ruang penyimpanan.
+From the beginning, Bitcoin was designed so that old data does not have to be stored forever. After a transaction is buried deep enough under many blocks above it, the details of that transaction can be “summarized” to save storage space.
 
-Caranya, semua transaksi di dalam satu blok dirangkum menjadi satu “sidik jari digital” lewat struktur yang disebut Merkle Tree (cara menggabungkan banyak data menjadi satu hash utama yang mewakili semuanya). Yang disimpan di blok hanya hasil kesimpulan akhirnya saja dalam berbentuk kode hash, bukan semua isi transaksi.
+The method is that all transactions in a block are combined into a single “digital fingerprint” through a structure called a Merkle Tree (a way of combining many pieces of data into one main hash that represents them all). What is stored in the block is only this final summary in the form of a hash code, not the full contents of every transaction.
 
-Karena itu, komputer yang ikut menjaga jaringan cukup menyimpan kepala blok yang sangat kecil, sekitar 80 byte per blok, yang dalam setahun hanya memakan beberapa megabyte.
+Because of this, computers that help maintain the network only need to store the block headers, which are very small—about 80 bytes per block—amounting to only a few megabytes per year.
 
-Satoshi lalu mengaitkan ini dengan Moore’s Law (pengamatan bahwa kemampuan komputer cenderung berlipat kira-kira setiap dua tahun, sehingga penyimpanan dan daya komputasi makin murah dan besar dari waktu ke waktu). Artinya, seiring teknologi berkembang, menyimpan dan memverifikasi Bitcoin seharusnya tidak menjadi beban berat bagi orang biasa.
+Satoshi then connects this to Moore’s Law (the observation that computer capabilities tend to roughly double every two years, making storage and computing power cheaper and larger over time). This means that as technology advances, storing and verifying Bitcoin should not become a heavy burden for ordinary users.
 
 --
 
