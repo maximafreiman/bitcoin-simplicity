@@ -156,75 +156,71 @@ Therefore, for higher security—especially for businesses that frequently recei
 
 --
 
-**10. Menggabungkan dan Memisahkan Nilai Transaksi**
+**10. Combining and Splitting Transaction Value**
 
-Daripada memperlakukan setiap “koin kecil” secara terpisah, Bitcoin menggabungkan dan memecah nilai dalam satu transaksi.
-Sebuah transaksi biasanya punya beberapa masukan (uang dari satu atau beberapa transaksi sebelumnya) dan dua keluaran:
-satu untuk penerima pembayaran, dan satu lagi untuk kembalian kembali ke pengirim jika ada sisa.
+Rather than treating every “small coin” separately, Bitcoin combines and splits value within a single transaction.  
+A transaction usually has multiple inputs (funds coming from one or more previous transactions) and two outputs:  
+one for the payment recipient, and another for change back to the sender if there is any remainder.
 
-Walaupun sebuah transaksi bisa bergantung pada banyak transaksi sebelumnya, itu tidak jadi masalah, karena jaringan tidak perlu melacak seluruh sejarah satu per satu. Cukup memastikan bahwa semua nilai yang dipakai memang berasal dari transaksi yang sah di blockchain.
-
---
-
-**11. Privasi**
-
-Perbankan tradisional menjaga privasi dengan membatasi siapa saja yang bisa melihat data transaksi.
-Bitcoin berbeda, karena semua transaksi bisa dilihat publik. Tapi privasi tetap dijaga dengan cara lain: identitas orangnya tidak ditampilkan, yang terlihat hanya alamat digitalnya (public key).
-
-Jadi, orang bisa melihat bahwa sebuah alamat mengirim uang ke alamat lain, tapi tidak tahu siapa orang di balik alamat itu.
-Ini mirip seperti bursa saham, di mana orang bisa melihat waktu dan jumlah transaksi, tapi tidak tahu siapa pelakunya.
-
-Untuk perlindungan tambahan, pengguna disarankan memakai alamat baru setiap kali bertransaksi, supaya sulit menghubungkan banyak transaksi ke satu orang yang sama. Namun, dalam beberapa kasus, seperti saat satu transaksi memakai beberapa sumber dana sekaligus, masih bisa terlihat bahwa semuanya kemungkinan milik orang yang sama.
-
-Artinya, privasi di Bitcoin itu bukan menghilangkan jejak, tapi menjaga jarak antara transaksi dan identitas manusia di baliknya.
+Even though a transaction can depend on many previous transactions, this is not a problem, because the network does not need to track the entire history one by one. It only needs to ensure that all the value being spent truly comes from valid transactions recorded on the blockchain.
 
 --
 
-** 12. Perhitungan Level Keamanan**
+**11. Privacy**
 
-Bagian ini menjelaskan seberapa sulit bagi penyerang untuk “mengejar” dan mengubah transaksi yang sudah masuk ke blockchain.
+Traditional banking protects privacy by limiting who can see transaction data.  
+Bitcoin is different, because all transactions are publicly visible. However, privacy is preserved in another way: people’s identities are not shown—only their digital addresses (public keys) are visible.
 
-Bayangkan ada dua jalur balapan:
+So, anyone can see that one address sends money to another address, but they cannot see who the person behind the address is.  
+This is similar to a stock exchange, where people can see the time and size of trades, but not the identities of the traders.
 
-- Jalur jujur = jaringan normal yang terus menambah blok
+For additional protection, users are encouraged to use a new address for each transaction, making it harder to link many transactions to the same person. However, in some cases—such as when a single transaction uses multiple sources of funds—it can still be inferred that they likely belong to the same owner.
 
-- Jalur penyerang = penyerang yang diam-diam mencoba membuat rantai versinya sendiri
-
-Setiap kali jaringan jujur menambah satu blok, penyerang semakin tertinggal.
-Penyerang hanya bisa berhasil kalau dia beruntung dan cukup kuat untuk menyusul dan melewati jaringan jujur.
-
-Intinya:
-
-Semakin banyak blok yang ditambahkan setelah transaksi kamu, semakin kecil peluang penyerang bisa membalikkan transaksi itu.
-Peluangnya tidak turun pelan-pelan, tapi jatuh sangat cepat — seperti peluang menang lotre yang makin kecil setiap menit kamu menunggu.
-
-Karena itu, Bitcoin punya konsep “konfirmasi”:
-
-- 1 konfirmasi = transaksi sudah masuk ke satu blok
-
-- 6 konfirmasi = transaksi sudah “terkunci” sangat kuat secara praktis
-
-Soal kunci baru dan transaksi paralel, maknanya sederhana:
-Penerima pembayaran membuat transaksi tidak bisa diprediksi lebih dulu oleh pengirim, sehingga penyerang tidak bisa menyiapkan rantai palsu dari jauh-jauh hari.
-
-Kesimpulan besarnya:
-
-Bitcoin tidak bergantung pada “tidak mungkin diserang”,
-tapi pada fakta bahwa biaya, usaha, dan keberuntungan yang dibutuhkan untuk menyerang akan menjadi tidak masuk akal setelah beberapa blok berlalu.
+This means that privacy in Bitcoin is not about erasing traces, but about keeping distance between transactions and the human identities behind them.
 
 --
 
-**13. Kesimpulan**
+**12. Calculations of Security Levels**
 
-Bitcoin adalah sistem uang digital yang tidak bergantung pada kepercayaan kepada siapa pun.
-Kepemilikan dijaga oleh tanda tangan digital, dan kecurangan seperti memakai uang dua kali dicegah oleh jaringan komputer yang saling terhubung dan mencatat transaksi lewat proof-of-work.
+This section explains how difficult it is for an attacker to “catch up” and alter a transaction that has already been added to the blockchain.
 
-Jaringan ini tidak punya pusat dan tidak butuh identitas. Komputer bisa datang dan pergi kapan saja, lalu menerima rantai terpanjang sebagai sejarah bersama yang sah.
+Imagine two race tracks:
 
-Setiap komputer “memilih” bukan dengan suara, tapi dengan daya komputasi:
-mereka mendukung blok yang benar dengan melanjutkannya, dan menolak blok yang salah dengan mengabaikannya.
+- Honest track = the normal network that keeps adding blocks  
+- Attacker’s track = an attacker secretly trying to build their own version of the chain
 
-Intinya:
-Keamanan dan kepercayaan Bitcoin lahir dari kesepakatan bersama dan matematika, bukan dari otoritas atau janji manusia.
+Every time the honest network adds a new block, the attacker falls further behind.  
+The attacker can only succeed if they get lucky and have enough power to catch up and overtake the honest network.
 
-(Akan segera update untuk lanjutan materi. Stay tune..)
+The key idea:
+
+The more blocks that are added after your transaction, the smaller the chance that an attacker can reverse it.  
+The probability does not decrease slowly—it drops very fast, like the odds of winning a lottery shrinking with every minute you wait.
+
+That is why Bitcoin has the concept of “confirmations”:
+
+- 1 confirmation = the transaction is included in one block  
+- 6 confirmations = the transaction is, in practical terms, very strongly locked in
+
+Regarding new keys and parallel transactions, the simple meaning is this:  
+The recipient of a payment makes the transaction unpredictable in advance to the sender, so an attacker cannot prepare a fake chain far ahead of time.
+
+The big conclusion:
+
+Bitcoin does not rely on being “impossible to attack,”  
+but on the fact that the cost, effort, and luck required to attack become unreasonable after a few blocks have passed.
+
+--
+
+**13. Conclusion**
+
+Bitcoin is a digital money system that does not rely on trust in any individual or institution.  
+Ownership is secured by digital signatures, and fraud such as double spending is prevented by a network of connected computers that record transactions through proof-of-work.
+
+This network has no center and requires no identities. Computers can come and go at any time, and then accept the longest chain as the valid shared history.
+
+Each computer “chooses” not by voting, but by computing power:  
+they support correct blocks by extending them, and reject incorrect blocks by ignoring them.
+
+In essence:  
+Bitcoin’s security and trust emerge from collective agreement and mathematics, not from authority or human promises.
