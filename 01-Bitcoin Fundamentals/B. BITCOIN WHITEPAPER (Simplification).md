@@ -115,19 +115,19 @@ A transaction does not have to reach every computer to enter the system. As long
 
 --
 
-**7. Insentif**
+**7. Insentive**
 
-Di setiap blok, ada satu transaksi khusus di bagian paling awal. Yaitu transaksi "hadiah" kepada pembuat blok. Transaksi ini menciptakan koin baru dan langsung memberikannya kepada komputer yang berhasil membuat blok tersebut.
+In every block, there is one special transaction at the very beginning. This is the “reward” transaction for the block creator. This transaction creates new coins and immediately gives them to the computer that successfully created the block.
 
-Ini adalah hadiah supaya orang mau menjalankan komputer mereka untuk menjaga jaringan tetap berjalan, karena tidak ada bank atau kantor pusat yang membagikan koin.
+This is a reward to encourage people to run their computers to keep the network operating, because there is no bank or central office that distributes coins.
 
-Proses ini mirip seperti menambang emas. Bukan menggali tanah, tapi menghabiskan waktu dan listrik komputer untuk “menghasilkan” koin baru.
+This process is similar to mining gold. Instead of digging the ground, it uses computer time and electricity to “produce” new coins.
 
-Selain dari koin baru, komputer atau mesin pembuat blok juga bisa mendapat biaya transaksi. Kalau seseorang mengirim 1 Bitcoin tapi hanya 0,99 Bitcoin yang sampai ke penerima, maka 0,01 Bitcoin sisanya jadi biaya untuk pembuat blok.
+In addition to new coins, the block-creating computer or machine can also receive transaction fees. If someone sends 1 Bitcoin but only 0.99 Bitcoin reaches the receiver, then the remaining 0.01 Bitcoin becomes a fee for the block creator.
 
-Nanti, ketika jumlah koin baru sudah mencapai batas yang ditentukan (21 juta), hadiah koin baru akan berhenti. Setelah itu, pembuat blok hanya dibayar dari biaya transaksi, bukan dari koin baru lagi.
+Later, when the number of new coins reaches the predetermined limit (21 million), the new-coin reward will stop. After that, block creators will be paid only from transaction fees, not from newly created coins.
 
-Sistem hadiah ini juga mendorong kejujuran. Kalau seseorang punya komputer sangat kuat, dia bisa mencoba curang, tapi dalam jangka panjang dia akan dapat lebih banyak untung dengan mengikuti aturan, karena dia bisa terus mendapat hadiah dan biaya transaksi, tanpa merusak sistem yang memberi nilai pada koin yang dia miliki.
+This reward system also encourages honesty. If someone has very powerful computers, they could try to cheat, but in the long run they will profit more by following the rules, because they can continue to earn rewards and transaction fees without damaging the system that gives value to the coins they own.
 
 --
 
