@@ -169,7 +169,7 @@ Even though a transaction can depend on many previous transactions, this is not 
 **11. Privacy**
 
 Traditional banking protects privacy by limiting who can see transaction data.  
-Bitcoin is different, because all transactions are publicly visible. However, privacy is preserved in another way: people’s identities are not shown—only their digital addresses (public keys) are visible.
+Bitcoin is different, because all transactions are publicly visible. However, privacy is preserved in another way: people’s identities are not shown, only their digital addresses (public keys) are visible.
 
 So, anyone can see that one address sends money to another address, but they cannot see who the person behind the address is.  
 This is similar to a stock exchange, where people can see the time and size of trades, but not the identities of the traders.
