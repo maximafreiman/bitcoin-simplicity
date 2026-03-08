@@ -1,40 +1,78 @@
-# The Byzantine General Problem, dan Bagaimana Konsensus Bitcoin Menjadi Solusi
+# The Byzantine Generals Problem, and How Bitcoin Consensus Becomes the Solution
 
 
-Dalam dunia komputer terdistribusi (seperti jaringan Bitcoin yang isinya ribuan komputer asing), ada satu masalah klasik yang sangat ditakuti, namanya **Byzantine Generals Problem** (Masalah Jenderal Bizantium).
+In the world of distributed computing (such as the Bitcoin network which consists of thousands of unknown computers), there is a classic problem that is greatly feared, called the **Byzantine Generals Problem**.
 
-Analogi Jenderal Bizantium kurang lebih seperti ini:
+The Byzantine generals analogy roughly goes like this:
 
-Bayangkan ada beberapa pasukan jenderal yang mengepung sebuah kota musuh yang kuat.
+Imagine several generals surrounding a powerful enemy city.
 
-Kondisinya: Pasukan ini tersebar di berbagai sisi kota. Mereka hanya bisa menang kalau semua jenderal menyerang bersamaan. Kalau ada yang menyerang dan ada yang mundur, pasukan yang menyerang akan dihancurkan.
+The condition: The armies are spread around different sides of the city. They can only win if all generals attack at the same time. If some attack while others retreat, the attacking army will be destroyed.
 
-Masalahnya: Mereka hanya bisa berkomunikasi lewat kurir yang membawa pesan (seperti data internet).
+The problem: They can only communicate through couriers who carry messages (similar to data on the internet).
 
-Risikonya: 
-1.  Kurir bisa ditangkap musuh atau pesannya diganti.
-2.  Ada jenderal pengkhianat di antara mereka. Jenderal pengkhianat ini bisa mengirim pesan "Serang!" ke Jenderal A, tapi mengirim pesan "Mundur!" ke Jenderal B.
+The risks:
+1. Couriers could be captured by the enemy or their messages altered.
+2. There may be traitor generals among them. A traitor general could send the message "Attack!" to General A, but send "Retreat!" to General B.
 
-Hasilnya? Jenderal A menyerang sendirian dan kalah total. Konsensus gagal karena ada data palsu yang disebarkan oleh pengkhianat.
+The result? General A attacks alone and is completely defeated. Consensus fails because false information has been spread by a traitor.
 
 --
 
-**Hubungannya dengan Bitcoin**
+**Its Relation to Bitcoin**
 
-Di dalam jaringan Bitcoin, setiap komputer (node) adalah "Jenderal".
+Inside the Bitcoin network, every computer (node) is a "General".
 
-Pesannya adalah: "Si Andi mengirim 1 BTC ke Budi."
+The message is: "Andi sends 1 BTC to Budi."
 
-Pengkhianatnya adalah: Hacker atau orang yang ingin melakukan double spending (menggunakan uang yang sama dua kali).
+The traitor is: A hacker or someone attempting to perform double spending (using the same money twice).
 
-Bagaimana ribuan komputer yang tidak saling kenal ini bisa yakin bahwa pesan yang mereka terima adalah pesan yang jujur dan disepakati oleh semua jenderal lainnya?
+How can thousands of computers that do not know each other be sure that the message they receive is honest and agreed upon by the other generals?
 
-Solusi Jenius Bitcoin: Proof of Work (PoW)
+The Brilliant Solution of Bitcoin: Proof of Work (PoW)
 
-Satoshi Nakamoto (pencipta Bitcoin) menyelesaikan masalah jenderal ini bukan dengan "saling percaya", tapi dengan "biaya yang mahal".
+Satoshi Nakamoto (the creator of Bitcoin) solved the generals problem not by "trusting each other", but by making dishonesty extremely expensive.
 
-Dalam analogi jenderal tadi, PoW ibarat mewajibkan kurir untuk mengerjakan tugas yang sangat sulit dan memakan waktu lama (misalnya menyusun teka-teki rumit) sebelum bisa menyampaikan pesan.
+In the generals analogy, PoW is like requiring a courier to complete a very difficult and time-consuming task (for example solving a complex puzzle) before they are allowed to deliver the message.
 
-Jika jenderal pengkhianat ingin mengirim pesan palsu yang berbeda-beda ke banyak jenderal, dia harus mengeluarkan energi dan usaha yang sangat besar (hampir mustahil dilakukan sendirian). Tentu saja. Masing-masing jenderal punya kurirnya masing-masing. Dan setiap mereka ingin mengantar pesan harus mengeluarkan effort yang besar. Bayangkan jika 99 jenderal dapat pesan yang sama, yang 1 dapat pesan yang berbeda. Maka pilihan untuk 1 jenderal ini ada 2: ikuti kesepakatan yang sudah ada, atau cari jalurnya sendiri.
+If a traitor general wants to send different false messages to many generals, they must spend enormous energy and effort (almost impossible to do alone). Of course, each general has their own courier. And every time they want to deliver a message, they must spend significant effort. Imagine if 99 generals receive the same message while 1 receives a different one. The lone general then has two choices: follow the agreement that already exists, or attempt to go their own way.
 
-Dan yang terpenting juga, jenderal lain bisa dengan mudah memverifikasi apakah "pekerjaan" kurir itu benar atau tidak.
+Most importantly, other generals can easily verify whether the courier's "work" is valid or not.
+
+--
+
+**Why the Banking System Instead Adopts a Model Similar to the Byzantine Generals Problem**
+
+Unlike Bitcoin which attempts to solve the Byzantine problem, the modern banking system instead accepts and manages the problem in a different way, through centralization and institutional trust.
+
+In the banking system, the "generals" are not truly independent like in the Bitcoin network. They exist within a clear structure: commercial banks, central banks, clearing institutions, regulators, and national legal systems.
+
+This means that if a transaction message appears such as:
+
+"Andi sends money to Budi"
+
+the validity of that message is not determined by the consensus of thousands of independent computers, but by a trusted central authority.
+
+There are several mechanisms that make this system function:
+
+- Central authority (bank or clearing institution)  
+The bank acts as the source of truth. If there is a data conflict, the bank's records are considered correct.
+
+- Known identities (KYC)  
+All participants in the banking system have verified identities. This reduces the possibility of anonymous traitors.
+
+- Audits and regulation  
+Banks are supervised by regulators and auditors. If data manipulation occurs, there are legal consequences.
+
+- Transaction reversal systems  
+If errors or fraud occur, transactions can be reversed through administrative or legal processes.
+
+In other words, the banking system does not attempt to build a system that is mathematically resistant to traitors, as Bitcoin does.
+
+Instead, it builds a system that depends on trust in institutions, law, and central authority to resolve conflicts.
+
+This approach is far more efficient in terms of energy and transaction speed, but it comes with one major consequence:
+
+If the central authority fails, is compromised, or becomes corrupt, the entire system can be affected, because everyone depends on the same source of truth.
+
+Bitcoin attempts a different path: not by trusting institutions, but by building a system where even if some participants behave maliciously, the network can still reach the correct consensus.
